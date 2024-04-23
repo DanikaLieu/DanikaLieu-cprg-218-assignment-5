@@ -325,3 +325,53 @@ button {
 }
 
 
+#portfolio {
+  background: var(--second-bg-color);
+  padding: 5rem 9%;
+}
+
+#portfolio .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#portfolio h2 {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.portfolio-item {
+  background: var(--bg-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio-item h3 {
+  color: var(--main-color);
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.portfolio-item p {
+  color: var(--text-color);
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.portfolio-item iframe {
+  max-width: 100%;
+}
